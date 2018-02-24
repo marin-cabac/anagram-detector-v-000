@@ -9,6 +9,6 @@ class Anagram
    end
    def match(r)
     s_sort = @s.split("").sort
-     res =r.select{|x| x.split("").sort == s_sort}
+      r.select{|x| x.split("").sort == s_sort}
    end
 end
